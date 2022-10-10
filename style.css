@@ -222,28 +222,48 @@ a{
     display: flex;
     justify-content: space-around;
     height: 500px;
-    line-height: 70px;
 }
 .r,.ajs,.mat,.canva{
     background-color: antiquewhite;
+    width: 200px;
+    height: 100px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .kotlin,.xml,.ikon,.git{
     background-color: rgb(247, 247, 170);
+    width: 200px;
+    height: 100px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .svg,.nump,.node,.mysq{
     background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .react,.json,.color,.graph{
     background-color: pink;
+    width: 200px;
+    height: 100px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.list9,.list9a{
-    width: 70px;
-    
-    border-radius: 10px;
+.list9{
 }
 .head12{
     background-color: gray;
-    height: 250px;
+    height: 350px;
 }
 .list12,.list12a{
     display: flex;

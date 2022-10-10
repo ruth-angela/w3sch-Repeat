@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 50px;
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list1{
+    display: flex;
+    gap:1em;
+    align-items: center;
+}
+.list2{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.head2{
+    background-color: rgb(61, 61, 70);
+    height:400px;
+    padding: 70px;
+}
+.h2,.p1,.p11{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 200%;
+}
+.h2{
+    font-size: 500%;
+    color: white;
+}
+.p1{
+    font-size:150%;
+    color: plum;
+}
+.head3{
+    background-color: lightblue;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    gap: 3.5em;
+    padding: 25px;
+}
+.p3,.para3{
+    gap:1.5em;
+}
+.d3{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column; 
+    line-height:2.0;
+}
+.head3b{
+    width:30%;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    line-height: 1.4;
+    border-radius:10px;
+}
+.h3,.h4,.h5{
+    font-size: 350%;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+.head4{
+    background-color:rgb(252, 252, 145);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap:4.0em;
+    padding: 25px;
+}
+.h4a{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+}
+.head4b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: linen;
+    line-height:2.0 ;
+    width: 30%;
+    border-radius: 10px;
+}
+.p3,.p4,.p5{
+    font-size: large;
+    font-weight:450;
+}
+.head5{
+    background-color: rgb(1, 1, 12) ;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap:3.0em;
+    padding: 25px;
+}
+.h5a{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+}
+.head5b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: linen;
+    line-height: 5.0;
+    width: 30%;
+    border-radius: 10px;
+}
+.paragraph5{
+    color: white;
+}
+.para5{
+    color: aliceblue;
+}
+.head6{
+    height: 600%;
+}
+.list6,.list7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+   gap:2.5em;
+}
+.php,.java,.cplus,.jq{
+    font-size: 300%;
+    font-family: sans-serif;
+}
+.l6a,.l6b,.l7a,.l7b{
+    height: 50%;
+    width: 30%;
+    gap:2.5em;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+.l6a{
+    display: flex;
+    background-color: plum;
+    align-items: center;
+    flex-direction: column;
+}
+.l6b{
+    display: flex;
+    background-color: rgb(230, 230, 154);
+    align-items: center;
+    flex-direction: column;
+}
+.l7a{
+    display: flex;
+    background-color:wheat;
+    align-items: center;
+    flex-direction: column;
+}
+.l7b{
+    display: flex;
+    background-color: lightblue;
+    align-items: center;
+    flex-direction: column;
+}
+.learn{
+    background-color: rgb(26, 26, 56);
+    border-radius: 5px;
+    color: white;
+}
+.head8{
+    height: 200px;
+    background-color: gray;
+}
+.list8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+.parag8,.parag8a{
+    width: 500px;
+    height:80px ;
+    border-radius: 5px;
+}
+.parag8{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parag8a{
+    background-color: rgb(240, 240, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head9{
+    background-color:gray;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    line-height: 70px;
+}
+.r,.ajs,.mat,.canva{
+    background-color: antiquewhite;
+}
+.kotlin,.xml,.ikon,.git{
+    background-color: rgb(247, 247, 170);
+}
+.svg,.nump,.node,.mysq{
+    background-color: lightblue;
+}
+.react,.json,.color,.graph{
+    background-color: pink;
+}
+.list9,.list9a{
+    width: 70px;
+    
+    border-radius: 10px;
+}
+.head12{
+    background-color: gray;
+    height: 250px;
+}
+.list12,.list12a{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 20px;
+}
+.excel,.ai{
+    background-color: plum;
+    width: 500px;
+    height: 100px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.machine,.sheets{
+    background-color: lightblue;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codeedit{
+    background-color: gray;
+    height: 550px;
+    line-height: 2.5;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cedit,.h16b{
+    font-family: sans-serif;
+    font-size: large;
+}
+.codeedt{
+    font-size: 300%;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.head16{
+    background-color: gray;
+    height: 500px;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorpick{
+    background-color: linen;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.0;
+}
+.w3colors{
+    width:  150px;
+    height: 150px;
+}
+.colorp{
+    font-family: serif;
+    font-size: 300%;
+    font-weight: 500;
+}
+.w3colors{
+    width:  150px;
+    height: 150px;
+}
+.colors,.codegg,.temp{
+    font-size: larger;
+}
+.codegame{
+    background-color: rgb(132, 202, 179);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.0;
+}
+.codeg{
+    font-family:cursive;
+    font-size: 300%;
+    font-weight: 500;
+}
+.codegg{
+    font-family: fantasy;
+}
+.templates{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    background-color: rgb(214, 206, 206);
+    padding: 20px;
+}
+.webpic{
+    width:  50%;
+    height: 50%;
+}
+.webtemp{
+    font-family: serif;
+    font-size: 300%;
+    font-weight: 500;
+}
+.head14{
+    background-color: rgb(24, 24, 54);
+    height: 370px;
+    padding: 50px;
+    font-size: 250%;
+    line-height: 2.7;
+}
+.h14a{
+    color: pink;
+}
+.button{
+    background-color: rgb(78, 121, 78);
+}
+.head15{
+    background-color: rgb(255, 253, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    line-height: 1.8;
+    padding: 15px;
+}
+.h15a,.h16a{
+    font-size: 300%;
+    font-family: serif;
+    font-weight: 500;
+}
+.h15b,.h16b{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.h15c{
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.head16{
+    background-color: gray;
+    height: 650px;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ph1{
+    width: 90%;
+}
+.footer{
+    background-color: rgb(30, 30, 39);
+    height: 400px;
+    padding: 45px;
+}
+.ftlist{
+    display: flex;
+    justify-content:flex-start;
+    gap:0.5em;
+}
+.fabout{
+    display: flex;
+    justify-content: flex-end;
+}
+.icons2{
+    display: flex;
+    justify-content:flex-end;
+    gap:1.5em;
+    padding: 20px;
+    color: white;
+}
+.endline{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align:center;
+}
+.end{
+    font-family: sans-serif;
+    font-size: large;
+    color: wheat;
+}
+.blue{
+    background-color: rgb(58, 58, 99);
+}
+
+
+    
+
+    
+   

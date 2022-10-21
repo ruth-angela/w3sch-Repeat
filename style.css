@@ -15,12 +15,24 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .list1{
     display: flex;
     gap:1em;
     align-items: center;
 }
+.dsknav{
+    display: flex;
+    gap:1em;
+    align-items: center;
+}
 .list2{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.list22{
     display: flex;
     gap:30px;
     align-items: center;
@@ -456,10 +468,24 @@ a{
 }
 .blue{
     background-color: rgb(58, 58, 99);
+} 
+   .l3a{
+    color:blue;
+   }
+
+.humburger{
+    display: none;
 }
 
+@media (max-width: 768px) {
+.dsknav{
+    display: none;
+}
+.humburger{
+    display: block;
+}
+.list22{
+    display: none
+}
+}
 
-    
-
-    
-   
